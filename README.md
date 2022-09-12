@@ -21,18 +21,16 @@ Collection of essential Vue Composition Utilities
 ## 🚀 Features
 
 - 🎪 [**Interactive docs & demos**](https://vueuse.org)
-- 🕶 **Seamless migration**: Works for **both** Vue 3 and 2
+- 🕶 **Seamless migration**: Works for  Vue3 (composition api)
 - ⚡ **Fully tree shakable**: Only take what you want, [bundle size](https://vueuse.org/export-size)
 - 🦾 **Type Strong**: Written in [Typescript](https://www.typescriptlang.org/), with [TS Docs](https://github.com/microsoft/tsdoc)
 - 🔋 **SSR Friendly**
 - 🌎 **No bundler required**: Usable via CDN
 - 🔩 **Flexible**: Configurable event filters and targets
-- 🔌 **Optional [Add-ons](https://vueuse.org/add-ons)**: Router, Firebase, RxJS, etc.
-
 ## 🦄 Usage
 
 ```ts
-import { useMouse, usePreferredDark, useLocalStorage } from '@vueuse/core'
+import { useMouse, usePreferredDark, useLocalStorage } from '@vueuse_ts/core'
 
 export default {
   setup() {
@@ -60,16 +58,9 @@ Refer to [functions list](https://vueuse.org/functions) or [documentations](http
 
 ## 📦 Install
 
-> 🎩 From v4.0, it works for Vue 2 & 3 **within a single package** by the power of [vue-demi](https://github.com/vueuse/vue-demi)!
-
 ```bash
 npm i @vueuse/core
 ```
-
-Vue 3 Demo: [Vite](https://github.com/vueuse/vueuse-vite-starter), [Webpack](https://github.com/vueuse/vueuse-vue3-example) / Vue 2 Demo: [Vue CLI](https://github.com/vueuse/vueuse-vue2-example)
-
-> From v6.0, VueUse requires `vue` >= v3.2 or `@vue/composition-api` >= v1.1
-
 ### CDN
 
 ```html
@@ -102,4 +93,4 @@ And thanks to [all the contributors on GitHub](https://github.com/vueuse/vueuse/
 
 ## 📄 License
 
-[MIT License](https://github.com/vueuse/vueuse/blob/main/LICENSE) © 2019-PRESENT [Anthony Fu](https://github.com/antfu)
+[MIT License](https://github.com/vueuse/vueuse/blob/main/LICENSE) © 2019-PRESENT [Hirsch Adway](https://github.com/hirschadway)
