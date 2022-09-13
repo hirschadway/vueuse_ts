@@ -17,11 +17,11 @@
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "paths": {
-      "@vueuse/shared": ["./packages/shared/index.ts"],
-      "@vueuse/shared/*": ["./packages/shared/*"],
-      "@vueuse/core": ["./packages/core/index.ts"],
-      "@vueuse/core/*": ["./packages/core/*"],
-      "@vueuse/docs-utils": ["./packages/.vitepress/utils.ts"]
+      "@vueuse_ts/shared": ["./packages/shared/index.ts"],
+      "@vueuse_ts/shared/*": ["./packages/shared/*"],
+      "@vueuse_ts/core": ["./packages/core/index.ts"],
+      "@vueuse_ts/core/*": ["./packages/core/*"],
+      "@vueuse_ts/docs-utils": ["./packages/.vitepress/utils.ts"]
     }
   },
   "include": [
